@@ -1,2 +1,2 @@
 # c-facens-program
-repositorio destinado aos exercicios da facens.
+repository for facens exercises.
