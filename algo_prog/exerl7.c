@@ -10,7 +10,7 @@ void E7(int E7); //0 to 100 vector
 void E8(int E8); //positive vector
 void E9(int E9); //verify
 void E10(int E10); //vector, invert vector, print the same values
-void E11(int E11); //palidrome incomplete
+void E11(int E11); //palidrome incomplete\\\\\\\\\\\\\\\\\\\\\\\\
 
 int main (){
     int e1, e2, e3, e4, e5, e6, e7, e8, e9, e10, e11;

@@ -8,7 +8,7 @@ void E4(int E4); //average, biggest numbers
 void E5(int E5); //calc
 void E6(int E6); //bank account
 void E7(int E7); //int divisor
-void E8(int E8); //votes - incomplete
+void E8(int E8); //votes - incomplete\\\\\\\\\\\\\\\\
 
 int main() {
     int e1,e2,e3,e4,e5,e6,e7,e8;
@@ -38,8 +38,7 @@ int main() {
     E8(e8);
 }
 void E1(int E1) {
-    int i=0;
-    while(i<=100)
+    int i=0;    while(i<=100)
     {
         printf("%i\n", i);
         i+=2;

@@ -1,5 +1,5 @@
-#ifndef DERIVATIVE_H
-#define DERIVATIVE_H
+#ifndef PERCENT_H
+#define PERCENT_H
 #include <stdio.h>
 
 void percent(int num, int totalnum, float res){

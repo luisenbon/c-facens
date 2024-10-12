@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <windows.h>
+#include <unistd.h>
 #include "percent.h"
 
 void E1(int E1); //media
@@ -44,7 +44,7 @@ int main() {
     printf("\n\nexercise 8\n");
     E8(e8);
     
-    Sleep(100000000);
+    usleep(1000*8);
     return 0;
 }
 
