@@ -8,7 +8,12 @@ static int* test() {
 int main() {
     int *px = test();
     printf("%i", *px);
+
+
+
     Sleep(5000);
     return 0;
 
 }
+
+void metade(float k)
