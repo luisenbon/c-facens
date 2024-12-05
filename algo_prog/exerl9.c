@@ -1,18 +1,11 @@
-#include <stdio.h>
+    #include <stdio.h>
 
-void mat(int a, int b);
+    void mat(int mat1, int mat2); 
 
-int main(){
+    main(){
+        int e1;
+        printf("exer1\n");
 
-}
-
-void mat(int a, int b){
-    int mat[a][b];
-    int i, j;
-    for(i = 0; i < a; i++){
-        for(j = 0; j < b; j++){
-            printf("enter the value %i %i: \n", i, j);
-            scanf("%d", &mat[i][j]);
-        }
     }
-}
+
+    void E1(int tab1, int tab2){
