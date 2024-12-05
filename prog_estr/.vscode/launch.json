@@ -1,6 +1,18 @@
 {
-  "version": "0.2.0",
+  "version": "2.0.0",
   "configurations": [
+    {
+      "name": "C/C++ debug",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/main.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "MIMode": "gdb"
+    },
     {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
@@ -8,8 +20,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/luismedeiros/lulu/C-/class2",
-      "program": "/home/luismedeiros/lulu/C-/class2/build/Debug/outDebug",
+      "cwd": "/home/luismedeiros/lulu/c-facens/prog_estr",
+      "program": "/home/luismedeiros/lulu/c-facens/prog_estr/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
