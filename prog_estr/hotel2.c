@@ -16,4 +16,30 @@ typedef struct hospede{
     int dias;
 }hospede;
 
+void aloca_quarto(quarto **x, int h);
+void aloca_hospede(hospede **x, int h);
 
+
+int main(){
+    quarto *pq;
+    hospede *ph;
+    int op;
+
+    aloca_quarto(pq, 15);
+    aloca_hospede(ph,cont)
+    do{
+
+    }while(op!=5);
+
+     
+}
+
+void aloca_quarto(quarto **x, int h){
+    if((*x=(quarto*)realloc(*x,h*sizeof(quarto)))==NULL)
+    exit(1);
+}
+
+void aloca_hospede(hospede **x, int h){
+    if((*x=(hospede*)realloc(*x,h*sizeof(hospede)))==NULL)
+    exit(1);
+}
